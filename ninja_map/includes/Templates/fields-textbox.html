@@ -1,0 +1,19 @@
+<script id="tmpl-nf-field-nfMap" type="text/template">
+		<div id="map"></div>
+		<div id="infowindow-content">
+			<span id="place-address"></span>
+		</div>
+</script>
+
+<script id="tmpl-nf-field-nfMap_input" type="text/template">
+	<input id="map-input" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+	<p id="error-message"></p>
+</script>
+
+<script id="tmpl-nf-field-nfMap_lat_input" type="text/template">
+	<input style="display:none" id="lat-input" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>
+
+<script id="tmpl-nf-field-nfMap_lng_input" type="text/template">
+	<input style="display: none;" id="lng-input" name="nf-field-{{{ data.id }}}"  class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
+</script>

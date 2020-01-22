@@ -1,0 +1,46 @@
+#cheese{
+  color: orange;
+}
+#map{
+  height: 500px;
+  width: 100%;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+#error-message {
+    color: #b72f2f;
+    font-size: 18px;
+    font-family: 'Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+}
+
+#place-address {
+    color: #333;
+    font-family: 'Source Sans Pro',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.swal-button{
+  background-color: #426FB5;
+
+}
+
+/* #lat-input{
+  display: none;
+}
+
+#lng-input{
+  display: none;
+} */
